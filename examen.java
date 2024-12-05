@@ -23,6 +23,10 @@ public class examen {
                 case 2:
                     break;
                 case 3:
+                	System.out.print("Introduce una frase: ");
+                    String fraseLetra = sc.nextLine();
+                    System.out.print("Introduce la letra que quieres contar: ");
+                    char letra = sc.next().charAt(0);
                     break;
 
                 case 4:
