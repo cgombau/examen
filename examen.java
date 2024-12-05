@@ -23,6 +23,8 @@ public class examen {
                     String palabra1 = sc.nextLine();
                     System.out.print("Introduce la segunda palabra: ");
                     String palabra2 = sc.nextLine();
+                    String resultado = palabra1 + " " + palabra2;
+                    System.out.println("Resultado de la concatenación: " + resultado);
                     break;
                 case 2:
                     break;
