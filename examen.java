@@ -21,6 +21,9 @@ public class examen {
                 case 1:
                     break;
                 case 2:
+                	 System.out.print("Introduce una frase: ");
+                     String frase = sc.nextLine();
+                     String[] palabras = frase.split("\\s+");
                     break;
                 case 3:
                     break;
