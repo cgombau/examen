@@ -24,6 +24,7 @@ public class examen {
                 	 System.out.print("Introduce una frase: ");
                      String frase = sc.nextLine();
                      String[] palabras = frase.split("\\s+");
+                     System.out.println("Número de palabras en la frase: " + palabras.length);
                     break;
                 case 3:
                     break;
