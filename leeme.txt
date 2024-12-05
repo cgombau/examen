@@ -1,0 +1,23 @@
+Descripción:
+Este proyecto consiste en un programa que ofrece un menú con las siguientes opciones:
+1. Concatenar dos palabras
+2. Visualizar el número de palabras de una frase
+3. Contar cuántas veces aparece una letra en una frase
+4. Salir
+
+Función:
+El usuario puede elegir entre las opciones del menú para realizar diversas manipulaciones con palabras y frases. Se implementó utilizando el lenguaje de programación java y con un enfoque modular usando ramas en Git.
+
+Implementación:
+- La opción 1 permite al usuario ingresar dos palabras y concatenarlas.
+- La opción 2 cuenta las palabras de una frase.
+- La opción 3 cuenta cuántas veces aparece una letra específica en una frase.
+- La opción 4 permite al usuario salir del programa tras una confirmación.
+
+Gestión del proyecto:
+- El desarrollo se realizó en ramas separadas para cada opción del menú.
+- Las ramas fueron fusionadas en la rama principal (master) una vez finalizadas.
+- El repositorio está disponible en GitHub, donde se subió el código final.
+
+Colaboradores:
+Añadir 3 colaboradores.
