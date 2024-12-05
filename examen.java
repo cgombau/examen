@@ -24,10 +24,10 @@ public class examen {
                     break;
                 case 3:
                     break;
-
                 case 4:
+                	System.out.print("¿Seguro que quieres salir? (s/n): ");
+                    char confirmacion = sc.next().charAt(0);
                     break;
-
                 default:
                     System.out.println("Opción no válida. Intenta de nuevo.");
                     break;
