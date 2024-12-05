@@ -33,11 +33,21 @@ public class examen {
                      System.out.println("Número de palabras en la frase: " + palabras.length);
                     break;
                 case 3:
+                	System.out.print("Introduce una frase: ");
+                    String fraseLetra = sc.nextLine();
+                    System.out.print("Introduce la letra que quieres contar: ");
+                    char letra = sc.next().charAt(0);
+                    int contador = 0;
+                    for (int i = 0; i < fraseLetra.length(); i++) {
+                        if (fraseLetra.charAt(i) == letra) {
+                            contador++;
+                        }
+                    }
+                    System.out.println("La letra '" + letra + "' aparece " + contador + " veces en la frase.");
+                    sc.nextLine();
                     break;
-
                 case 4:
                     break;
-
                 default:
                     System.out.println("Opción no válida. Intenta de nuevo.");
                     break;
