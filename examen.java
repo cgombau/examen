@@ -27,6 +27,12 @@ public class examen {
                 case 4:
                 	System.out.print("¿Seguro que quieres salir? (s/n): ");
                     char confirmacion = sc.next().charAt(0);
+                    if (confirmacion == 's' || confirmacion == 'S') {
+                        System.out.println("Saliendo del programa...");
+                        opcion = 0;
+                    } else {
+                        sc.nextLine();
+                    }
                     break;
                 default:
                     System.out.println("Opción no válida. Intenta de nuevo.");
