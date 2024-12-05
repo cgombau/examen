@@ -19,6 +19,10 @@ public class examen {
 
             switch (opcion) {
                 case 1:
+                	System.out.print("Introduce la primera palabra: ");
+                    String palabra1 = sc.nextLine();
+                    System.out.print("Introduce la segunda palabra: ");
+                    String palabra2 = sc.nextLine();
                     break;
                 case 2:
                     break;
